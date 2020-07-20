@@ -34,9 +34,9 @@ type Settings = {
     feedbackDuration: int
     } with
     static member Default = {
-        size = 12
+        size = 5
         mathBase = Decimal
-        mathType = Enums.Times
+        mathType = Enums.Plus
         autoEnter = false
         progressiveDifficulty = true
         sound = On
